@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+/* font-family: "Lexend", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+/* font-family: "Capriola", sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: black;
+}
+/*--------------------------------------------------------------------------------------------------*/
+.mainText  .content {
+    color: white;
+    padding-left: 300px;
+    padding-top: 200px;
+    font-size: 64px;
+    font-family: "Lexend", sans-serif; 
+}  
+/*--------------------------------------------------------------------------------------------------*/
+.Links .container{
+    padding-left: 530px;
+}
+.Links .container .box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 55px;
+    list-style: none;
+   
+}
+.Links .container .box li i{
+    color: white;
+    padding: 20px;
+    font-size: 40px;
+    background: rgba(86, 86, 86, 0.519);
+    margin: 15px;
+    border-radius: 12px;
+    position: relative;
+}
+/*--------------------------------------------------------------------------------------------------*/

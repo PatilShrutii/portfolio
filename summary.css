@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+/* font-family: "Lexend", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+/* font-family: "Capriola", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* font-family: "Space Mono", monospace; */
+*{
+    padding: 0;
+    margin: 0;
+}
+.summaryContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.summaryContainer .Intro p{
+    font-size: 21px;
+    padding-left: 70px;
+    padding-right: 120px;
+    line-height: 1.9rem;
+}
+.summaryContainer .Intro  span{
+    font-size: 30px;
+    color: rgb(217, 155, 179);
+    font-weight: 400;
+}
+.summaryContainer .img img{
+    width: 450px;
+    padding-right: 200px;
+    padding-left: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.Experience {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.heading{
+    font-size: 32px;
+    padding-top: 15px;
+    padding-left: 700px;
+    padding-bottom: 35px;
+}
+.Experience .intern1 h4{
+    font-size: 18px;
+    padding: 10px
+}
+.Experience .intern1{
+    margin-left: 20px;
+    padding: 24px;
+    border: 1px solid rgba(75, 75, 75, 0.249);
+    border-radius: 1px;
+    box-shadow: 0 0 15px rgba(75, 75, 75, 0.249);
+    margin-bottom: 20px;
+}
+.Experience .intern1 p{
+    font-size: 16px;
+    padding-left: 70px;
+    padding-right: 120px;
+    line-height: 1.9rem;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    padding-left: 700px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.container .box {
+    margin: 25px;
+    border: 1px solid rgba(75, 75, 75, 0.249);
+    border-radius: 1px;
+    box-shadow: 0 0 15px rgba(75, 75, 75, 0.249);
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.container .box img{
+    width: 150px;
+    height: auto;
+}
+.container .box p{
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-left: 20px;
+}
